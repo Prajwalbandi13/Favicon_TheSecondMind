@@ -51,13 +51,13 @@ export function HomePage() {
               whileHover={{ scale: 1.05 }}
               className="bg-white rounded-xl p-8 shadow-lg"
             >
-              <div className="text-center">
+              <Link to="/insights" className="text-center">
                 <Brain className="w-12 h-12 text-indigo-600 mx-auto mb-4" />
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">AI Analysis</h2>
                 <p className="text-gray-600">
                   Get intelligent insights and recommendations
                 </p>
-              </div>
+              </Link>
             </motion.div>
           </div>
         </div>
